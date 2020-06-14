@@ -175,6 +175,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\TelescopeServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        \ChickenTikkaMasala\GPIO\Bridge\Laravel\GPIOServiceProvider::class,
 
     ],
 

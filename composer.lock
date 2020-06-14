@@ -4,8 +4,37 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "93d048b7645378607726247d3be86a65",
+    "content-hash": "0222ab820b52c9cc130948ea10362ed6",
     "packages": [
+        {
+            "name": "chickentikkamasala/gpio",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bashleigh/GPIO.git",
+                "reference": "99b9c313a502524813b53dff8c89bfc58d777359"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bashleigh/GPIO/zipball/99b9c313a502524813b53dff8c89bfc58d777359",
+                "reference": "99b9c313a502524813b53dff8c89bfc58d777359",
+                "shasum": ""
+            },
+            "type": "project",
+            "autoload": {
+                "psr-0": {
+                    "ChickenTikkaMasala\\GPIO": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "ashleigh simonelli",
+                    "email": "ashleighsimonelli@gmail.com"
+                }
+            ],
+            "time": "2018-04-26T09:53:27+00:00"
+        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "v0.1.1",
